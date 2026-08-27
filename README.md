@@ -1,5 +1,7 @@
 # NestJS Crypto Telegram Alert
 
+**한국어** | [English](./README.en.md)
+
 ```text
 ┌──────────────────────────────────────────┐
 │   NESTJS · BINANCE FUTURES · TELEGRAM     │
@@ -98,7 +100,8 @@ PriceAlertService   VolumeAlertService   CandleAlertService
 │   └── coins.json                       # 코인별 알림 설정 + 공통 설정
 │
 ├── docs/
-│   ├── DEVELOPMENT.md                   # 설치/실행/환경변수 가이드
+│   ├── DEVELOPMENT.md                   # 설치/실행/환경변수 가이드 (한국어)
+│   ├── DEVELOPMENT.en.md                # 설치/실행/환경변수 가이드 (영문)
 │   └── images/                          # README용 스크린샷
 │       ├── price.png
 │       ├── volume.png
@@ -140,7 +143,8 @@ PriceAlertService   VolumeAlertService   CandleAlertService
 ├── package.json
 ├── nest-cli.json
 ├── tsconfig.json
-└── README.md
+├── README.md                            # 한국어 (기본)
+└── README.en.md                         # 영문
 ```
 
 ---

@@ -1,5 +1,7 @@
 # Development Guide
 
+**한국어** | [English](./DEVELOPMENT.en.md)
+
 로컬에서 이 프로젝트를 설치하고 실행하는 방법을 정리합니다.
 
 ---
