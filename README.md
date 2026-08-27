@@ -97,6 +97,12 @@ PriceAlertService   VolumeAlertService   CandleAlertService
 ├── data/
 │   └── coins.json                       # 코인별 알림 설정 + 공통 설정
 │
+├── docs/
+│   └── images/                          # README용 스크린샷
+│       ├── price.png
+│       ├── volume.png
+│       └── candle.png
+│
 ├── src/
 │   ├── main.ts                          # 서버 시작
 │   ├── app.module.ts                    # 루트 모듈
