@@ -1,0 +1,52 @@
+{
+  "coins": [
+    {
+      "symbol": "BTCUSDT",
+      "name": "BTC",
+      "volume": { "thresholds": [10500, 1000, 6500], "isActive": true },
+      "price": { "thresholds": [80000, 79700, 79600], "isActive": true }
+    },
+    {
+      "symbol": "ETHUSDT",
+      "name": "ETH",
+      "volume": { "thresholds": [1000, 900, 800], "isActive": false },
+      "price": { "thresholds": [3200, 3300, 3400], "isActive": false }
+    },
+    {
+      "symbol": "XRPUSDT",
+      "name": "XRP",
+      "volume": { "thresholds": [1000, 900, 800], "isActive": false },
+      "price": { "thresholds": [1.52, 1.50, 1.435], "isActive": true }
+    },
+    {
+      "symbol": "SOLUSDT",
+      "name": "SOL",
+      "volume": { "thresholds": [1000, 900, 800], "isActive": false },
+      "price": { "thresholds": [140, 150, 160], "isActive": false }
+    }
+  ],
+  "settings": {
+    "cooldownSeconds": 15,
+    "klineInterval": "15m",
+    "candleAlerts": {
+      "5m": true,
+      "15m": true,
+      "30m": false,
+      "1h": true,
+      "4h": false,
+      "1d": false,
+      "1w": false,
+      "1M": false
+    },
+    "sleepTime": {
+      "isActive": true,
+      "startHour": 21,
+      "endHour": 6,
+      "appliesTo": {
+        "candle": false,
+        "price": true,
+        "volume": true
+      }
+    }
+  }
+}
