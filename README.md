@@ -98,6 +98,7 @@ PriceAlertService   VolumeAlertService   CandleAlertService
 │   └── coins.json                       # 코인별 알림 설정 + 공통 설정
 │
 ├── docs/
+│   ├── DEVELOPMENT.md                   # 설치/실행/환경변수 가이드
 │   └── images/                          # README용 스크린샷
 │       ├── price.png
 │       ├── volume.png
@@ -139,7 +140,6 @@ PriceAlertService   VolumeAlertService   CandleAlertService
 ├── package.json
 ├── nest-cli.json
 ├── tsconfig.json
-├── DEVELOPMENT.md                       # 설치/실행/환경변수 가이드
 └── README.md
 ```
 
@@ -241,7 +241,7 @@ TELEGRAM_BIT_RECON_BOT_CHAT_ID_CANDLE=...  # 캔들 갱신 알림 전용 텔레�
 
 ## 시작하기
 
-설치, 환경변수, 실행, 테스트 방법은 [DEVELOPMENT.md](./DEVELOPMENT.md)를 참고
+설치, 환경변수, 실행, 테스트 방법은 [docs/DEVELOPMENT.md](./docs/DEVELOPMENT.md)를 참고
 
 ---
 

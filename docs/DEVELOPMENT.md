@@ -79,7 +79,7 @@ TELEGRAM_BIT_RECON_BOT_CHAT_ID_CANDLE=-34567
 
 ## 6. 알림 대상 코인 설정
 
-`data/coins.json`에서 감시할 코인, 임계값, 알림 on/off, 쿨다운/수면시간 등을 설정합니다. 자세한 필드 설명은 [README.md](./README.md)의 "설정 기반 알림 제어" 섹션을 참고하세요.
+`data/coins.json`에서 감시할 코인, 임계값, 알림 on/off, 쿨다운/수면시간 등을 설정합니다. 자세한 필드 설명은 [README.md](../README.md)의 "설정 기반 알림 제어" 섹션을 참고하세요.
 
 ---
 
