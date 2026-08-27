@@ -23,6 +23,27 @@
 
 ---
 
+## 실행 화면
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/images/price.png" width="250" alt="가격 알림 예시"><br>
+      가격 알림
+    </td>
+    <td align="center">
+      <img src="docs/images/volume.png" width="250" alt="거래량 알림 예시"><br>
+      거래량 알림
+    </td>
+    <td align="center">
+      <img src="docs/images/candle.png" width="250" alt="캔들 갱신 알림 예시"><br>
+      캔들 갱신 알림
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Tech Stack
 
 | Category | Technology |
